@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CS50 Learning Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+</head>
+
+<body class="bg-light">
+
+    <!-- Main Container -->
+    <div class="container py-5">
+
+        <!-- Header -->
+        <div class="text-center mb-5">
+
+            <h1 class="display-4 fw-bold">
+                Hello 👋
+            </h1>
+
+            <h2 class="text-secondary">
+                Welcome to my CS50 page
+            </h2>
+
+            <p class="lead">
+                Hello from <strong>aiolearn</strong>!
+            </p>
+
+            <p>
+                Learn more about
+                <a
+                    href="https://cs50.harvard.edu/web/projects/0/"
+                    target="_blank"
+                    class="fw-bold text-decoration-none"
+                >
+                    CS50
+                </a>
+            </p>
+
+            <p class="fst-italic text-secondary">
+                Learning HTML is fun!
+            </p>
+
+        </div>
+
+
+        <!-- Lists -->
+        <div class="row mb-5">
+
+            <!-- Unordered List -->
+            <div class="col-md-6 mb-4">
+
+                <h2>Unordered List</h2>
+
+                <ul class="list-group">
+
+                    <li class="list-group-item">
+                        Home
+                    </li>
+
+                    <li class="list-group-item">
+                        Shop
+                    </li>
+
+                    <li class="list-group-item">
+                        Cart
+                    </li>
+
+                    <li class="list-group-item">
+                        About
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Ordered List -->
+            <div class="col-md-6 mb-4">
+
+                <h2>Ordered List</h2>
+
+                <ol class="list-group list-group-numbered">
+
+                    <li class="list-group-item">
+                        Home
+                    </li>
+
+                    <li class="list-group-item">
+                        Shop
+                    </li>
+
+                    <li class="list-group-item">
+                        Cart
+                    </li>
+
+                    <li class="list-group-item">
+                        About
+                    </li>
+
+                </ol>
+
+            </div>
+
+        </div>
+
+
+        <!-- Logo -->
+        <section class="text-center mb-5">
+
+            <h2 class="mb-4">
+                Logo
+            </h2>
+
+            <img
+                src="logo.jpg"
+                alt="CS50 Logo"
+                class="img-fluid rounded shadow"
+                style="max-width: 180px;"
+            >
+
+        </section>
+
+
+        <!-- Table -->
+        <section class="mb-5">
+
+            <h2 class="mb-4">
+                Users Table
+            </h2>
+
+            <div class="table-responsive">
+
+                <table class="table table-striped table-hover table-bordered text-center">
+
+                    <thead class="table-dark">
+
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Course</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Ali</td>
+                            <td>15</td>
+                            <td>HTML</td>
+                        </tr>
+
+                        <tr>
+                            <td>Reza</td>
+                            <td>16</td>
+                            <td>CSS</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- Form -->
+        <section class="mb-5">
+
+            <div class="card shadow">
+
+                <div class="card-body">
+
+                    <h2 class="card-title mb-4">
+                        User Form
+                    </h2>
+
+                    <form method="get">
+
+                        <!-- Username -->
+                        <div class="mb-3">
+
+                            <label
+                                for="username"
+                                class="form-label"
+                            >
+                                Username:
+                            </label>
+
+                            <input
+                                type="text"
+                                id="username"
+                                name="username"
+                                placeholder="Enter your username"
+                                class="form-control"
+                            >
+
+                        </div>
+
+
+                        <!-- Password -->
+                        <div class="mb-3">
+
+                            <label
+                                for="pass"
+                                class="form-label"
+                            >
+                                Password:
+                            </label>
+
+                            <input
+                                type="password"
+                                id="pass"
+                                name="password"
+                                placeholder="Enter your password"
+                                class="form-control"
+                            >
+
+                        </div>
+
+
+                        <!-- Color -->
+                        <div class="mb-3">
+
+                            <label
+                                for="color"
+                                class="form-label"
+                            >
+                                Choose a color:
+                            </label>
+
+                            <input
+                                type="color"
+                                id="color"
+                                name="color"
+                                class="form-control form-control-color"
+                            >
+
+                        </div>
+
+
+                        <!-- Radio -->
+                        <div class="mb-4">
+
+                            <label class="form-label">
+                                Choose your course:
+                            </label>
+
+                            <div class="form-check">
+
+                                <input
+                                    type="radio"
+                                    id="html"
+                                    name="course"
+                                    value="html"
+                                    class="form-check-input"
+                                >
+
+                                <label
+                                    for="html"
+                                    class="form-check-label"
+                                >
+                                    HTML
+                                </label>
+
+                            </div>
+
+
+                            <div class="form-check">
+
+                                <input
+                                    type="radio"
+                                    id="css"
+                                    name="course"
+                                    value="css"
+                                    class="form-check-input"
+                                >
+
+                                <label
+                                    for="css"
+                                    class="form-check-label"
+                                >
+                                    CSS
+                                </label>
+
+                            </div>
+
+
+                            <div class="form-check">
+
+                                <input
+                                    type="radio"
+                                    id="javascript"
+                                    name="course"
+                                    value="javascript"
+                                    class="form-check-input"
+                                >
+
+                                <label
+                                    for="javascript"
+                                    class="form-check-label"
+                                >
+                                    JavaScript
+                                </label>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Submit -->
+                        <button
+                            type="submit"
+                            class="btn btn-primary"
+                        >
+                            Send
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Flexbox -->
+        <section class="mb-5">
+
+            <h1 class="text-center mb-4">
+                Flexbox
+            </h1>
+
+            <div class="d-flex flex-wrap gap-3">
+
+                <div class="card flex-fill" style="min-width: 200px;">
+                    <div class="card-body">
+                        <h3 class="card-title">Box 1</h3>
+                        <p class="card-text">
+                            This is the first box.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="card flex-fill" style="min-width: 200px;">
+                    <div class="card-body">
+                        <h3 class="card-title">Box 2</h3>
+                        <p class="card-text">
+                            This is the second box.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="card flex-fill" style="min-width: 200px;">
+                    <div class="card-body">
+                        <h3 class="card-title">Box 3</h3>
+                        <p class="card-text">
+                            This is the third box.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="card flex-fill" style="min-width: 200px;">
+                    <div class="card-body">
+                        <h3 class="card-title">Box 4</h3>
+                        <p class="card-text">
+                            This is the fourth box.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Grid -->
+        <section class="mb-5">
+
+            <h1 class="text-center mb-4">
+                Grid
+            </h1>
+
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6">
+
+                    <div class="card h-100">
+
+                        <div class="card-body">
+
+                            <h3 class="card-title">
+                                Box 1
+                            </h3>
+
+                            <p class="card-text">
+                                HTML creates the structure of a webpage.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-12 col-md-6">
+
+                    <div class="card h-100">
+
+                        <div class="card-body">
+
+                            <h3 class="card-title">
+                                Box 2
+                            </h3>
+
+                            <p class="card-text">
+                                CSS is used to style the webpage.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-12 col-md-6">
+
+                    <div class="card h-100">
+
+                        <div class="card-body">
+
+                            <h3 class="card-title">
+                                Box 3
+                            </h3>
+
+                            <p class="card-text">
+                                Flexbox is useful for one-dimensional layouts.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-12 col-md-6">
+
+                    <div class="card h-100">
+
+                        <div class="card-body">
+
+                            <h3 class="card-title">
+                                Box 4
+                            </h3>
+
+                            <p class="card-text">
+                                Grid is useful for rows and columns.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+<!-- Modal Button -->
+<section class="text-center mb-5">
+
+    <h2 class="mb-4">
+        Bootstrap Modal
+    </h2>
+
+    <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+    >
+        Open Modal
+    </button>
+
+</section>
+
+
+<!-- Modal -->
+<div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+>
+
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+
+                <h5
+                    class="modal-title"
+                    id="exampleModalLabel"
+                >
+                    Welcome 👋
+                </h5>
+
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                ></button>
+
+            </div>
+
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+
+                <p>
+                    Welcome to my CS50 learning page!
+                </p>
+
+                <p>
+                    This is a Bootstrap modal.
+                </p>
+
+            </div>
+
+
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+
+                <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                >
+                    Close
+                </button>
+
+                <button
+                    type="button"
+                    class="btn btn-primary"
+                >
+                    Save
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+```
+
+    <!-- Bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+
+</body>
+
+</html>
